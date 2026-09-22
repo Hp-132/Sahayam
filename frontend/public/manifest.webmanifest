@@ -1,0 +1,10 @@
+{
+  "name": "Sahayam",
+  "short_name": "Sahayam",
+  "description": "Disaster relief coordination — citizen emergency requests",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- White Background Container -->
+  <rect width="500" height="500" fill="#ffffff" rx="16"/>
+  
+  <!-- Outer Red Location Pin -->
+  <path d="M250 45 C150 45 110 135 110 210 C110 300 230 425 250 445 C270 425 390 300 390 210 C390 135 350 45 250 45 Z" fill="none" stroke="#dc2626" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Helicopter Blades Top -->
+  <line x1="165" y1="115" x2="335" y2="115" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="250" y1="115" x2="250" y2="135" stroke="#0f172a" stroke-width="10"/>
+
+  <!-- Helicopter Rotor Head & Body -->
+  <path d="M185 155 C185 135 315 135 315 155 L300 185 C290 195 210 195 200 185 Z" fill="none" stroke="#0f172a" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="215" cy="165" r="10" fill="#0f172a"/>
+  
+  <!-- Helicopter Tail & Tail Rotor -->
+  <path d="M185 160 L145 150 L145 130" fill="none" stroke="#0f172a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="135" y1="140" x2="155" y2="140" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Helicopter Landing Skids -->
+  <line x1="175" y1="210" x2="315" y2="210" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="210" y1="192" x2="200" y2="210" stroke="#0f172a" stroke-width="8"/>
+  <line x1="290" y1="192" x2="300" y2="210" stroke="#0f172a" stroke-width="8"/>
+
+  <!-- Open Cupping Hand Icon -->
+  <path d="M160 250 C180 295 230 310 270 300 C300 292 330 265 340 250 C345 242 335 235 325 242 C305 258 275 275 240 268 C205 260 185 245 170 238 C162 234 155 242 160 250 Z" fill="#0f172a"/>
+
+  <!-- Sahayam Text (No Tagline) -->
+  <text x="250" y="475" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="64" fill="#1e293b" text-anchor="middle" letter-spacing="-1">Sahayam</text>
+</svg>

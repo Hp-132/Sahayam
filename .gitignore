@@ -1,0 +1,28 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+*.log
