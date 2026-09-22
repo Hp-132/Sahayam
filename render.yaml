@@ -1,0 +1,30 @@
+databases:
+  - name: sahayam-db
+    plan: free
+    databaseName: sahayam
+    postgresMajorVersion: "16"
+
+services:
+  - type: web
+    name: sahayam-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bootstrap.py && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.1
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sahayam-db
+          property: connectionString
+      - key: NOMINATIM_BASE_URL
+        value: https://nominatim.openstreetmap.org
+      - key: OVERPASS_BASE_URL
+        value: https://overpass-api.de/api
+      - key: GATEWAY_PHONE_NUMBER
+        sync: false
+      - key: SMS_GATEWAY_WEBHOOK_URL
+        sync: false
