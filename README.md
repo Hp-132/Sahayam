@@ -49,20 +49,7 @@ Admins verify requests, manage organisations and follow the whole relief operati
 
 ---
 
-## 🚀 Getting Started
 
-```bash
-# Backend
-cd backend
-cp .env.example .env        # fill in your own values
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-# Frontend
-cd frontend
-cp .env.example .env
-npm install
-npm run dev
 ```
 
 ---
