@@ -9,15 +9,11 @@
   and relief organisations to deliver timely, location-aware assistance.
 </p>
 
-<p align="center">
-  <a href="https://sahayam-six.vercel.app/">Live Demo</a>
-  ·
-  <a href="https://github.com/Hp-132/Sahayam">GitHub Repository</a>
-</p>
+
 
 ---
 
-## 🌍 Overview
+## Overview
 
 During disasters, the challenge is often not the absence of help — it is **coordinating the right response at the right place and time**.
 
